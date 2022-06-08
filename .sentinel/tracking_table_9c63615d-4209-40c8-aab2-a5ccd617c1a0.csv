@@ -1,6 +1,2 @@
 FileName, CommitSha
-Workbooks\multi-tenant-azure-activity.json,7a64963ed23479015bb1c326d128e801970d503e
-Workbooks\multi-tenant-incidents.json,2c8556b79eea5472ffa8c61b147f556446c6a05b
-Workbooks\multi-tenant-sign-in.json,2cf9140daf735a78f4f91a20d12c94e51feb9af4
-Workbooks\application-gw-firewall-events.json,4e64fe0ddb6d67ede3dcd8740c3c0089d26fc201
 Playbooks\Change-Incident-Severity.json,699293fb25cc30744411b07720a06b16b6765833
