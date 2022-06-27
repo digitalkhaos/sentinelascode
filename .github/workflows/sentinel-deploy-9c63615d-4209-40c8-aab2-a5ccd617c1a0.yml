@@ -23,10 +23,11 @@ jobs:
     env:
       resourceGroupName: 'sentinel-automation'
       workspaceName: 'wolfden-logs'
+      workspaceId: '30b34a3f-794e-4e5f-8e95-9082f085dc31'
       directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_9c63615d420940c8aab2a5ccd617c1a0 }}
-      contentTypes: 'AnalyticsRule,AutomationRule,HuntingQuery,Parser,Playbook,Workbook'
+      contentTypes: 'AnalyticsRule'
       branch: 'master'
       sourceControlId: '9c63615d-4209-40c8-aab2-a5ccd617c1a0'
       githubAuthToken: ${{ secrets.GITHUB_TOKEN }}
